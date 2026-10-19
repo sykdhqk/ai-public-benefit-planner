@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "id": "ai-public-benefit-planner",
+  "name": "AI Public Benefit Planner",
+  "description": "Turn an AI public-benefit idea into a review-ready plan with beneficiaries, measurable outcomes, governance, funding safeguards, and stop conditions.",
+  "source": { "format": "ipollowork-extension-manifest", "origin": "local", "trusted": false },
+  "package": {
+    "version": "1.0.0",
+    "publisher": { "id": "sykdhqk", "name": "sykdhqk" },
+    "updateId": "sykdhqk/ai-public-benefit-planner",
+    "compatibility": { "ipollowork": ">=0.50.12" }
+  },
+  "resources": [{
+    "type": "skill",
+    "id": "ai-public-benefit-planner",
+    "label": "AI Public Benefit Planner",
+    "path": "skills/ai-public-benefit-planner",
+    "required": true
+  }]
+}
